@@ -1,10 +1,10 @@
 {
-  "name": "robinson-gestational-age",
-  "version": "1.0.1",
+  "name": "down-probability-maternal-age",
+  "version": "1.0.0",
   "subdomain": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MathRobin/robinson-gestational-age.git"
+    "url": "https://github.com/MathRobin/down-probability-maternal-age.git"
   },
   "domains": [],
   "scripts": {
@@ -24,16 +24,15 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "moment": "^2.10.5"
   },
   "devDependencies": {
     "jest-cli": "^0.4.17"
   },
-  "description": "Calculate gestational age using Robinson curve. Based on the crown-rump length.",
+  "description": "Calculate probability of Down syndrom from maternal age.",
   "bugs": {
-    "url": "https://github.com/MathRobin/robinson-gestational-age/issues"
+    "url": "https://github.com/MathRobin/down-probability-maternal-age/issues"
   },
-  "homepage": "https://github.com/mathrobin/robinson-gestational-age",
+  "homepage": "https://github.com/mathrobin/down-probability-maternal-age",
   "main": "index.js",
   "author": "MathRobin <mthrobin@gmail.com>",
   "license": "MIT"
