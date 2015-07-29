@@ -2,7 +2,7 @@
 
 Calculate probability of Down syndrom from maternal age.
 
-*Français : Calcul la probabilité qu'une mère engendre un enfant atteint de trisomie 21 (syndrome de Dawn). En fonction de l'âge de la mère. *
+*Français : Calcule la probabilité qu'une mère engendre un enfant atteint de trisomie 21 (syndrome de Dawn). En fonction de l'âge de la mère. *
 
 ## Setup
 
