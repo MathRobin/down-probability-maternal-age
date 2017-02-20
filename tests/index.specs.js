@@ -1,7 +1,9 @@
 /*globals jest, require, expect, describe, it */
+
 jest.autoMockOff();
 
-var testedThing = require('../index');
+const
+    testedThing = require('../index');
 
 describe('calculateDownProbability', function () {
     'use strict';
