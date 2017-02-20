@@ -51,7 +51,7 @@ Here, age of mother is only in months.
 
 So in this sample, mother has 526 months, corresponding to 43 yeas and 10 months.
 
-### Retunrs
+### Returns
 
 *This function is a proxy of function calculate. So the return is exactly the same.*
 
