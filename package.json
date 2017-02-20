@@ -11,14 +11,7 @@
     "test": "jest --coverage"
   },
   "jest": {
-    "testFileExtensions": [
-      "specs.js"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json"
-    ],
-    "testDirectoryName": "tests"
+    "testRegex": "\\.specs\\.js$"
   },
   "engines": {
     "node": "6.9.4",
