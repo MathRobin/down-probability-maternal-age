@@ -21,12 +21,13 @@
     "testDirectoryName": "tests"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": "6.9.4",
+    "npm": "3.10.10"
   },
   "dependencies": {
   },
   "devDependencies": {
-    "jest-cli": "^0.4.17"
+    "jest-cli": "18.1.0"
   },
   "description": "Calculate probability of Down syndrom from maternal age.",
   "bugs": {
