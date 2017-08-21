@@ -31,49 +31,49 @@ describe('calculateDownProbability', function () {
             try {
                 expect(testedThing.calculate());
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculate(null));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculate(''));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculate('abcd'));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculate(20));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculate(20, null));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculate(20, ''));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculate(20, 'abcd'));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
         });
@@ -97,25 +97,25 @@ describe('calculateDownProbability', function () {
             try {
                 expect(testedThing.calculateFromMonths());
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculateFromMonths(null));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculateFromMonths(''));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
             try {
                 expect(testedThing.calculateFromMonths('abcd'));
                 expect(true).toBe(false);
-            } catch (eX) {
+            } catch (exception) {
                 expect(true).toBe(true);
             }
         });
