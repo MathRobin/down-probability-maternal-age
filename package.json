@@ -14,13 +14,13 @@
     "testRegex": "\\.specs\\.js$"
   },
   "engines": {
-    "node": "6.9.4",
+    "node": "6.11.0",
     "npm": "3.10.10"
   },
   "dependencies": {
   },
   "devDependencies": {
-    "jest-cli": "18.1.0"
+    "jest-cli": "20.0.4"
   },
   "description": "Calculate probability of Down syndrom from maternal age.",
   "bugs": {
