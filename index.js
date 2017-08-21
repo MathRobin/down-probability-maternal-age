@@ -3,7 +3,15 @@
 module.exports = (function () {
     'use strict';
 
+    function isNumber(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n);
+    }
+
     function calculate(years, months) {
+        if (!isNumber(years) || !isNumber(months)) {
+            throw new Error('Bad arguments');
+        }
+
         const
             monthsRounded = (+years + (+months / 12)),
             monthsRoundedPow2 = Math.pow(monthsRounded, 2),
@@ -20,6 +28,10 @@ module.exports = (function () {
     }
 
     function calculateFromMonths(months) {
+        if (!isNumber(months)) {
+            throw new Error('Bad arguments');
+        }
+
         return calculate(Math.round(months / 12), months % 12);
     }
 

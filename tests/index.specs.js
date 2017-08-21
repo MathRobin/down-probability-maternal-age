@@ -27,55 +27,34 @@ describe('calculateDownProbability', function () {
             });
         });
 
-        it('should throw for stupid param', function () {
-            try {
-                expect(testedThing.calculate());
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculate(null));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculate(''));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculate('abcd'));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculate(20));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculate(20, null));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculate(20, ''));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculate(20, 'abcd'));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
+        it('should throw for stupid param in first position', function () {
+            expect(() => {
+                testedThing.calculate();
+            }).toThrow();
+            expect(() => {
+                testedThing.calculate(null);
+            }).toThrow();
+            expect(() => {
+                testedThing.calculate('');
+            }).toThrow();
+            expect(() => {
+                testedThing.calculate('abcd');
+            }).toThrow();
+        });
+
+        it('should throw for stupid param in second position', function () {
+            expect(() => {
+                testedThing.calculate(20);
+            }).toThrow();
+            expect(() => {
+                testedThing.calculate(20, null);
+            }).toThrow();
+            expect(() => {
+                testedThing.calculate(20, '');
+            }).toThrow();
+            expect(() => {
+                testedThing.calculate(20, 'abcd');
+            }).toThrow();
         });
     });
 
@@ -94,30 +73,18 @@ describe('calculateDownProbability', function () {
         });
 
         it('should throw for stupid param', function () {
-            try {
-                expect(testedThing.calculateFromMonths());
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculateFromMonths(null));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculateFromMonths(''));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
-            try {
-                expect(testedThing.calculateFromMonths('abcd'));
-                expect(true).toBe(false);
-            } catch (exception) {
-                expect(true).toBe(true);
-            }
+            expect(() => {
+                testedThing.calculateFromMonths();
+            }).toThrow();
+            expect(() => {
+                testedThing.calculateFromMonths(null);
+            }).toThrow();
+            expect(() => {
+                testedThing.calculateFromMonths('');
+            }).toThrow();
+            expect(() => {
+                testedThing.calculateFromMonths('abcd');
+            }).toThrow();
         });
     });
 });
