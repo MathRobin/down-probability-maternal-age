@@ -20,7 +20,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "jest-cli": "20.0.4"
+    "jest-cli": "23.6.0"
   },
   "description": "Calculate probability of Down syndrom from maternal age.",
   "bugs": {
