@@ -1,4 +1,4 @@
-# down-probability-maternal-age [![Build Status](https://travis-ci.org/MathRobin/down-probability-maternal-age.svg)](https://travis-ci.org/MathRobin/down-probability-maternal-age)
+# down-probability-maternal-age [![Build Status](https://travis-ci.org/MathRobin/down-probability-maternal-age.svg)](https://travis-ci.org/MathRobin/down-probability-maternal-age) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/down-probability-maternal-age.svg)](https://greenkeeper.io/)
 
 Calculate probability of Down syndrom from maternal age.
 
