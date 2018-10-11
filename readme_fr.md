@@ -1,4 +1,4 @@
-# down-probability-maternal-age [![Build Status](https://travis-ci.org/MathRobin/down-probability-maternal-age.svg)](https://travis-ci.org/MathRobin/down-probability-maternal-age) [![Code Climate](https://codeclimate.com/github/MathRobin/down-probability-maternal-age/badges/gpa.svg)](https://codeclimate.com/github/MathRobin/down-probability-maternal-age)
+# down-probability-maternal-age [![npm version](https://badge.fury.io/js/down-probability-maternal-age.svg)](https://badge.fury.io/js/down-probability-maternal-age) [![Build Status](https://travis-ci.org/MathRobin/down-probability-maternal-age.svg)](https://travis-ci.org/MathRobin/down-probability-maternal-age) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/down-probability-maternal-age.svg)](https://greenkeeper.io/)
 
 Calcule la probabilité qu'une mère engendre un enfant atteint de trisomie 21 (syndrome de Dawn).
 En fonction de l'âge de la mère.
