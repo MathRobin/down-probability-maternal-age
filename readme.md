@@ -2,6 +2,8 @@
 
 Calculate probability of Down syndrom from maternal age.
 
+This is not anymore a good method too calculate the down probability. Consult a specialist.
+
 French version here : [Readme FR](https://github.com/MathRobin/down-probability-maternal-age/blob/master/readme_fr.md)
 
 ## Setup

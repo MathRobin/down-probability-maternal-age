@@ -3,6 +3,8 @@
 Calcule la probabilité qu'une mère engendre un enfant atteint de trisomie 21 (syndrome de Dawn).
 En fonction de l'âge de la mère.
 
+Attention, ce n'est plus du tout la meilleure façon de calculer la probabilité de ce syndrome. Consultez un spécialiste.
+
 English version here : [Readme EN](https://github.com/MathRobin/down-probability-maternal-age/blob/master/readme.md)
 
 ## Installation
