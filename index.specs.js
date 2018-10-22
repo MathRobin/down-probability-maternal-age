@@ -3,7 +3,7 @@
 jest.autoMockOff();
 
 const
-    testedThing = require('../index');
+    testedThing = require('./index');
 
 describe('calculateDownProbability', function () {
     'use strict';
