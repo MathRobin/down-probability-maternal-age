@@ -1,5 +1,5 @@
-# down-probability-maternal-age
-[![npm version](https://badge.fury.io/js/down-probability-maternal-age.svg)](https://badge.fury.io/js/down-probability-maternal-age) [![NpmLicense](https://img.shields.io/npm/l/down-probability-maternal-age.svg?style=popout)](https://github.com/MathRobin/down-probability-maternal-age/blob/master/LICENSE) [![Build Status](https://travis-ci.org/MathRobin/down-probability-maternal-age.svg)](https://travis-ci.org/MathRobin/down-probability-maternal-age) [![Greenkeeper badge](https://badges.greenkeeper.io/MathRobin/down-probability-maternal-age.svg)](https://greenkeeper.io/)
+# down-probability-maternal-age 
+[![Build Status](https://travis-ci.org/MathRobin/down-probability-maternal-age.svg)](https://travis-ci.org/MathRobin/down-probability-maternal-age)
 
 Calculate probability of Down syndrom from maternal age.
 
@@ -11,6 +11,10 @@ French version here : [Readme FR](https://github.com/MathRobin/down-probability-
 
 ```shell
 npm i -S down-probability-maternal-age
+```
+or yarn
+```shell
+yarn add down-probability-maternal-age
 ```
 
 ## calculate
