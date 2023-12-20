@@ -1,0 +1,18 @@
+name: test
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: Europe/Paris
+      - name: Install modules
+        run: yarn
+      - name: Run lint tasks
+        run: yarn lint
+      - name: Run tests
+        run: yarn test
