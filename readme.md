@@ -1,5 +1,5 @@
 /!\ not maintained /!\
-* This is not anymore a good method too calculate the down probability. Consult a specialist. *
+** This is not anymore a good method too calculate the down probability. Consult a specialist. **
 
 # down-probability-maternal-age
 
